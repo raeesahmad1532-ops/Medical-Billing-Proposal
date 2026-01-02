@@ -72,8 +72,8 @@ const ProposalPreview: React.FC<Props> = ({ proposal, practice, settings }) => {
       </div>
 
       <div className="overflow-y-auto overflow-x-hidden scroll-smooth flex-1 bg-white">
-        {/* Main Proposal Container with updated generous padding */}
-        <div id="proposal-printable-content" className="bg-white min-h-full p-6 md:pt-16 md:px-12 md:pb-12 relative">
+        {/* Main Proposal Container with requested padding: p-4 for mobile, md:p-10 for desktop (40px) */}
+        <div id="proposal-printable-content" className="bg-white min-h-full p-4 md:p-10 relative">
           <div className="absolute top-0 left-0 h-2 bg-primary w-full"></div>
           
           <div className="flex flex-col md:flex-row justify-between items-start mb-16 gap-8">
